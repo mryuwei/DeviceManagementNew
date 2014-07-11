@@ -14,14 +14,15 @@
 		323C7907196E7915009C1DF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 323C7906196E7915009C1DF4 /* main.m */; };
 		323C790B196E7915009C1DF4 /* YWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 323C790A196E7915009C1DF4 /* YWAppDelegate.m */; };
 		323C790E196E7915009C1DF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323C790C196E7915009C1DF4 /* Main.storyboard */; };
-		323C7911196E7915009C1DF4 /* YWFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323C7910196E7915009C1DF4 /* YWFirstViewController.m */; };
-		323C7914196E7915009C1DF4 /* YWSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323C7913196E7915009C1DF4 /* YWSecondViewController.m */; };
 		323C7916196E7915009C1DF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323C7915196E7915009C1DF4 /* Images.xcassets */; };
 		323C791D196E7915009C1DF4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323C791C196E7915009C1DF4 /* XCTest.framework */; };
 		323C791E196E7915009C1DF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323C78FA196E7915009C1DF4 /* Foundation.framework */; };
 		323C791F196E7915009C1DF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323C78FE196E7915009C1DF4 /* UIKit.framework */; };
 		323C7927196E7915009C1DF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 323C7925196E7915009C1DF4 /* InfoPlist.strings */; };
 		323C7929196E7915009C1DF4 /* DeviceManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 323C7928196E7915009C1DF4 /* DeviceManagementTests.m */; };
+		323C793F196E8861009C1DF4 /* YWDeviceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323C793E196E8861009C1DF4 /* YWDeviceTableViewController.m */; };
+		323C7942196E886F009C1DF4 /* YWRecordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323C7941196E886F009C1DF4 /* YWRecordTableViewController.m */; };
+		323C7945196E888A009C1DF4 /* YWDeviceDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323C7944196E888A009C1DF4 /* YWDeviceDetailsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +47,18 @@
 		323C7909196E7915009C1DF4 /* YWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWAppDelegate.h; sourceTree = "<group>"; };
 		323C790A196E7915009C1DF4 /* YWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWAppDelegate.m; sourceTree = "<group>"; };
 		323C790D196E7915009C1DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		323C790F196E7915009C1DF4 /* YWFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWFirstViewController.h; sourceTree = "<group>"; };
-		323C7910196E7915009C1DF4 /* YWFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWFirstViewController.m; sourceTree = "<group>"; };
-		323C7912196E7915009C1DF4 /* YWSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWSecondViewController.h; sourceTree = "<group>"; };
-		323C7913196E7915009C1DF4 /* YWSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWSecondViewController.m; sourceTree = "<group>"; };
 		323C7915196E7915009C1DF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		323C791B196E7915009C1DF4 /* DeviceManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		323C791C196E7915009C1DF4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		323C7924196E7915009C1DF4 /* DeviceManagementTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeviceManagementTests-Info.plist"; sourceTree = "<group>"; };
 		323C7926196E7915009C1DF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		323C7928196E7915009C1DF4 /* DeviceManagementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceManagementTests.m; sourceTree = "<group>"; };
+		323C793D196E8861009C1DF4 /* YWDeviceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWDeviceTableViewController.h; sourceTree = "<group>"; };
+		323C793E196E8861009C1DF4 /* YWDeviceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWDeviceTableViewController.m; sourceTree = "<group>"; };
+		323C7940196E886F009C1DF4 /* YWRecordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWRecordTableViewController.h; sourceTree = "<group>"; };
+		323C7941196E886F009C1DF4 /* YWRecordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWRecordTableViewController.m; sourceTree = "<group>"; };
+		323C7943196E888A009C1DF4 /* YWDeviceDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWDeviceDetailsTableViewController.h; sourceTree = "<group>"; };
+		323C7944196E888A009C1DF4 /* YWDeviceDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWDeviceDetailsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,13 +118,11 @@
 		323C7900196E7915009C1DF4 /* DeviceManagement */ = {
 			isa = PBXGroup;
 			children = (
+				323C7933196E8644009C1DF4 /* View */,
+				323C7932196E8626009C1DF4 /* ViewController */,
 				323C7909196E7915009C1DF4 /* YWAppDelegate.h */,
 				323C790A196E7915009C1DF4 /* YWAppDelegate.m */,
 				323C790C196E7915009C1DF4 /* Main.storyboard */,
-				323C790F196E7915009C1DF4 /* YWFirstViewController.h */,
-				323C7910196E7915009C1DF4 /* YWFirstViewController.m */,
-				323C7912196E7915009C1DF4 /* YWSecondViewController.h */,
-				323C7913196E7915009C1DF4 /* YWSecondViewController.m */,
 				323C7915196E7915009C1DF4 /* Images.xcassets */,
 				323C7901196E7915009C1DF4 /* Supporting Files */,
 			);
@@ -155,6 +156,26 @@
 				323C7925196E7915009C1DF4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		323C7932196E8626009C1DF4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				323C793D196E8861009C1DF4 /* YWDeviceTableViewController.h */,
+				323C793E196E8861009C1DF4 /* YWDeviceTableViewController.m */,
+				323C7940196E886F009C1DF4 /* YWRecordTableViewController.h */,
+				323C7941196E886F009C1DF4 /* YWRecordTableViewController.m */,
+				323C7943196E888A009C1DF4 /* YWDeviceDetailsTableViewController.h */,
+				323C7944196E888A009C1DF4 /* YWDeviceDetailsTableViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		323C7933196E8644009C1DF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,10 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323C7945196E888A009C1DF4 /* YWDeviceDetailsTableViewController.m in Sources */,
 				323C790B196E7915009C1DF4 /* YWAppDelegate.m in Sources */,
-				323C7911196E7915009C1DF4 /* YWFirstViewController.m in Sources */,
-				323C7914196E7915009C1DF4 /* YWSecondViewController.m in Sources */,
 				323C7907196E7915009C1DF4 /* main.m in Sources */,
+				323C7942196E886F009C1DF4 /* YWRecordTableViewController.m in Sources */,
+				323C793F196E8861009C1DF4 /* YWDeviceTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
